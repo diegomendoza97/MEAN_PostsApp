@@ -9,7 +9,7 @@ const userRoutes = require("./routes/user");
 const app = express();
 
 mongoose.connect(
-    "mongodb+srv://diego:Aqj5gGXEqVZ8rJqj@cluster0-kjg69.mongodb.net/test", { useNewUrlParser: true}
+    "mongodb+srv://<USER>:<PASSWORD>j@cluster0-kjg69.mongodb.net/test", { useNewUrlParser: true}
   )
   .then(() => {
     console.log("Connected to database!");
